@@ -8,13 +8,13 @@ import { translations, type Language } from "@/lib/translations"
 type LanguageContextType = {
   language: Language
   setLanguage: (lang: Language) => void
-  t: typeof translations.en
+  t: typeof translations.en | typeof translations.pl
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<Language>("en")
+  const [language, setLanguageState] = useState<Language>("pl")
 
   useEffect(() => {
     const saved = localStorage.getItem("language") as Language
