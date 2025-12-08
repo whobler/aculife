@@ -2,7 +2,7 @@ import React from "react";
 import "./logo.css";
 
 
-export default function Logo({ className = "", alt = "AcuLife" }) {
+export function Logo({ className = "", alt = "AcuLife" }) {
   return (
     <img
       src="/images/aculife-logo.png"
