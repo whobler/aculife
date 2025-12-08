@@ -140,9 +140,9 @@ export const translations = {
       title: "Contact",
       subtitle: "Get in touch to book your appointment",
       info: {
-        phone: "+48 123 456 789",
-        email: "info@aculife.pl",
-        address: "ul. Przykładowa 123\n00-001 Warsaw, Poland",
+        phone: "+48 609 835 783",
+        email: "whobler@gmail.com",
+        address: "ul. Gwiaździsta 12/58, 53-413 Wrocław, Poland",
       },
       hours: {
         title: "Opening Hours",
@@ -291,9 +291,9 @@ export const translations = {
       title: "Kontakt",
       subtitle: "Skontaktuj się, aby umówić wizytę",
       info: {
-        phone: "+48 123 456 789",
-        email: "info@aculife.pl",
-        address: "ul. Przykładowa 123\n00-001 Warszawa, Polska",
+        phone: "+48 609 835 783",
+        email: "whobler@gmail.com",
+        address: "ul. Gwiaździsta 12/58, 53-413 Wrocław, Polska",
       },
       hours: {
         title: "Godziny otwarcia",
