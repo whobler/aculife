@@ -105,7 +105,7 @@ export const translations = {
       items: [
         {
           title: "Acupuncture Session",
-          price: "250 PLN",
+          price: "200 PLN",
           duration: "60 minutes",
           description: "Initial consultation and treatment",
         },
