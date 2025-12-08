@@ -1,5 +1,4 @@
 import React from "react";
-import "./logo.css";
 
 
 export function Logo({ className = "", alt = "AcuLife" }) {
