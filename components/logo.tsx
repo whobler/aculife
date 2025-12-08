@@ -8,8 +8,8 @@ export function Logo({ className = "", alt = "AcuLife" }) {
       alt={alt}
       className={`site-logo ${className}`}
       loading="lazy"
-      width="160"
-      height="60"
+      width="50"
+      height="30"
     />
   );
 }
