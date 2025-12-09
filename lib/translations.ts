@@ -83,7 +83,7 @@ export const translations = {
     about: {
       title: "About Me",
       content: [
-        "Welcome to acuLife. I am a certified practitioner of traditional Chinese medicine with over 10 years of experience in acupuncture, acupressure, vacuum cupping, and moxibustion.",
+        "Welcome to acuLife. I am a certified practitioner of traditional Chinese medicine with many years of experience in acupuncture, acupressure, vacuum cupping, and moxibustion.",
         "My journey into holistic healing began with a deep fascination for the body's natural ability to heal itself. Through years of study and practice, I have helped hundreds of clients find relief from pain, stress, and various health conditions.",
         "I believe in treating each person as a whole, addressing not just symptoms but the underlying imbalances that affect your wellbeing. My approach combines ancient wisdom with modern understanding to provide personalized care that supports your body's natural healing processes.",
         "At acuLife, you will find a peaceful, welcoming environment where your health and comfort are my top priorities.",
@@ -95,7 +95,6 @@ export const translations = {
           "Traditional Chinese Medicine Diploma",
           "Advanced Cupping Therapy Certification",
           "Moxibustion Specialist Training",
-          "10+ Years of Clinical Experience",
         ],
       },
     },
@@ -234,7 +233,7 @@ export const translations = {
     about: {
       title: "O mnie",
       content: [
-        "Witaj w acuLife. Jestem certyfikowanym terapeutą tradycyjnej medycyny chińskiej z ponad 10-letnim doświadczeniem w akupunkturze, akupresurze, bańce próżniowej i moksybucji.",
+        "Witaj w acuLife. Jestem certyfikowanym terapeutą tradycyjnej medycyny chińskiej z wieloletnim doświadczeniem w akupunkturze, akupresurze, bańce próżniowej i moksoterapii.",
         "Moja podróż w holistyczne leczenie rozpoczęła się od głębokiej fascynacji naturalną zdolnością ciała do samoleczenia. Przez lata studiów i praktyki pomogłem setkom klientów znaleźć ulgę w bólu, stresie i różnych schorzeniach.",
         "Wierzę w traktowanie każdej osoby jako całości, zajmując się nie tylko objawami, ale podstawowymi zaburzeniami równowagi, które wpływają na Twoje samopoczucie. Moje podejście łączy starożytną mądrość z nowoczesnym zrozumieniem, aby zapewnić spersonalizowaną opiekę wspierającą naturalne procesy gojenia Twojego ciała.",
         "W acuLife znajdziesz spokojne, przyjazne środowisko, w którym Twoje zdrowie i komfort są moimi najwyższymi priorytetami.",
@@ -246,7 +245,6 @@ export const translations = {
           "Dyplom z tradycyjnej medycyny chińskiej",
           "Zaawansowany certyfikat terapii bańką",
           "Specjalistyczne szkolenie z moksybucji",
-          "Ponad 10 lat doświadczenia klinicznego",
         ],
       },
     },
