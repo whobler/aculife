@@ -225,7 +225,7 @@ export const translations = {
             "Bańki ssące są umieszczane na skórze, aby zwiększyć przepływ krwi, uwolnić napięcie mięśni i promować gojenie w określonych obszarach.",
         },
         {
-          title: "Moksybucja",
+          title: "Moksoterapia",
           description:
             "Terapia rozgrzewająca z użyciem suszonego bylicy do stymulacji krążenia, wzmocnienia układu odpornościowego i wspierania ogólnego samopoczucia.",
         },
@@ -273,8 +273,8 @@ export const translations = {
           description: "Ukierunkowana terapia bańką",
         },
         {
-          title: "Moksybucja",
-          price: "150 PLN",
+          title: "Moksoterapia",
+          price: "100 PLN",
           duration: "30 minut",
           description: "Zabieg terapii rozgrzewającej",
         },
