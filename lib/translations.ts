@@ -92,7 +92,6 @@ export const translations = {
         title: "Qualifications & Training",
         items: [
           "Certified Acupuncturist",
-          "Traditional Chinese Medicine Diploma",
           "Advanced Cupping Therapy Certification",
           "Moxibustion Specialist Training",
         ],
@@ -103,33 +102,39 @@ export const translations = {
       subtitle: "Transparent pricing for quality care",
       items: [
         {
-          title: "Acupuncture Session",
+          title: "Acupuncture Session - first timers",
           price: "200 PLN",
-          duration: "60 minutes",
+          duration: "about 90 minutes",
           description: "Initial consultation and treatment",
         },
         {
+          title: "Acupuncture Session",
+          price: "150 PLN",
+          duration: "about 60 minutes",
+          description: "Acupuncture treatment",
+        },
+        {
           title: "Acupressure Session",
-          price: "200 PLN",
-          duration: "45 minutes",
-          description: "Therapeutic pressure point massage",
+          price: "150 PLN",
+          duration: "about 45 minutes",
+          description: "Therapeutic point pressure / massage",
         },
         {
           title: "Vacuum Cupping",
-          price: "180 PLN",
-          duration: "30 minutes",
+          price: "200 PLN",
+          duration: "about 30 minutes",
           description: "Targeted cupping therapy",
         },
         {
           title: "Moxibustion",
-          price: "150 PLN",
-          duration: "30 minutes",
+          price: "100 PLN",
+          duration: "about 30 minutes",
           description: "Warming therapy treatment",
         },
         {
           title: "Combined Treatment",
-          price: "350 PLN",
-          duration: "90 minutes",
+          price: "price determined individually",
+          duration: "varies",
           description: "Multiple techniques in one session",
         },
       ],
@@ -145,7 +150,7 @@ export const translations = {
       },
       hours: {
         title: "Opening Hours",
-        schedule: ["Monday - Friday: 9:00 - 19:00", "Saturday: 10:00 - 15:00", "Sunday: Closed"],
+        schedule: ["Monday - Friday: 16:00 - 20:00", "Saturday: 12:00 - 20:00", "Sunday: Closed"],
       },
     },
   },
@@ -211,29 +216,29 @@ export const translations = {
         {
           title: "Akupunktura",
           description:
-            "Cienkie igły są wprowadzane w określone punkty, aby stymulować naturalne procesy gojenia organizmu, poprawić przepływ energii i przywrócić równowagę.",
+            "Akupunktura to starożytna chińska metoda terapeutyczna polegająca na nakłuwaniu specjalnymi, bardzo cienkimi igłami określonych punktów na ciele. Celem jest przywrócenie równowagi energetycznej organizmu, złagodzenie bólu, poprawa funkcjonowania narządów, wzmocnienie odporności i ogólnego samopoczucia.",
         },
         {
           title: "Akupresura",
           description:
-            "Delikatny nacisk stosowany na kluczowe punkty ciała w celu złagodzenia napięcia, zmniejszenia bólu i promowania relaksacji bez igieł.",
+            "Technika teraupetyczna polegająca na wywieraniu nacisku na odpowiednio dobrane punkty na ciele mająca na celu złagodzenie napięcia, zmniejszenie bólu i promowanie relaksacji (bez użycia igieł).",
         },
         {
           title: "Bańka próżniowa",
           description:
-            "Bańki ssące są umieszczane na skórze, aby zwiększyć przepływ krwi, uwolnić napięcie mięśni i promować gojenie w określonych obszarach.",
+            "Metoda wykorzystująca najczęściej szklane naczynie, które po podgrzaniu tworzy wewnątrz podciśnienie, zasysając skórę po przyłożeniu do ciała. Stymuluje to krążenie, układ odpornościowy, rozluźnia mięśnie i wspomaga leczenie infekcji oraz dolegliwości bólowych.",
         },
         {
           title: "Moksoterapia",
           description:
-            "Terapia rozgrzewająca z użyciem suszonego bylicy do stymulacji krążenia, wzmocnienia układu odpornościowego i wspierania ogólnego samopoczucia.",
+            "Moksoterapia (zwana też moksowaniem lub termopunkturą) to metoda z Tradycyjnej Medycyny Chińskiej polegająca na ogrzewaniu punktów akupunkturowych na ciele za pomocą żarzącego się suszu z ziół (głównie bylicy), by przywrócić i zrównoważyć przepływ energii życiowej (Qi).",
         },
       ],
     },
     about: {
       title: "O mnie",
       content: [
-        "Witaj w acuLife. Jestem certyfikowanym terapeutą tradycyjnej medycyny chińskiej z wieloletnim doświadczeniem w akupunkturze, akupresurze, bańce próżniowej i moksoterapii.",
+        "Witaj w acuLife. Jestem certyfikowanym terapeutą tradycyjnej medycyny chińskiej z wieloletnim doświadczeniem.",
         "Moja podróż w holistyczne leczenie rozpoczęła się od głębokiej fascynacji naturalną zdolnością ciała do samoleczenia. Przez lata studiów i praktyki pomogłem setkom klientów znaleźć ulgę w bólu, stresie i różnych schorzeniach.",
         "Wierzę w traktowanie każdej osoby jako całości, zajmując się nie tylko objawami, ale podstawowymi zaburzeniami równowagi, które wpływają na Twoje samopoczucie. Moje podejście łączy starożytną mądrość z nowoczesnym zrozumieniem, aby zapewnić spersonalizowaną opiekę wspierającą naturalne procesy gojenia Twojego ciała.",
         "W acuLife znajdziesz spokojne, przyjazne środowisko, w którym Twoje zdrowie i komfort są moimi najwyższymi priorytetami.",
@@ -241,10 +246,9 @@ export const translations = {
       qualifications: {
         title: "Kwalifikacje i szkolenia",
         items: [
-          "Certyfikowany akupunkturzysta",
+          "Certyfikowany akupunkturzysta przynależący do Polskiego Stowarzyszenia Akupunkturzystów",
           "Dyplom z tradycyjnej medycyny chińskiej",
-          "Zaawansowany certyfikat terapii bańką",
-          "Specjalistyczne szkolenie z moksybucji",
+          "Szkolenie z moksoterapii",
         ],
       },
     },
@@ -253,22 +257,28 @@ export const translations = {
       subtitle: "Przejrzyste ceny za wysoką jakość opieki",
       items: [
         {
-          title: "Sesja akupunktury",
-          price: "250 PLN",
-          duration: "60 minut",
+          title: "Sesja akupunktury - pierwsza wizyta",
+          price: "200 PLN",
+          duration: "około 90 minut",
           description: "Wstępna konsultacja i zabieg",
         },
         {
-          title: "Sesja akupresury",
-          price: "200 PLN",
-          duration: "45 minut",
-          description: "Terapeutyczny masaż punktów nacisku",
+          title: "Sesja akupunktury - kolejne wizyty",
+          price: "150 PLN",
+          duration: "około 60 minut",
+          description: "Terapia akupunkturą - kolejne wizyty",
         },
         {
-          title: "Bańka próżniowa",
-          price: "180 PLN",
-          duration: "30 minut",
-          description: "Ukierunkowana terapia bańką",
+          title: "Sesja akupresury",
+          price: "150 PLN",
+          duration: "około 45 minut",
+          description: "Terapeutyczny masaż odpowiednich punktów na ciele",
+        },
+        {
+          title: "Bańka próżniowa / ogniowa",
+          price: "200 PLN",
+          duration: "około 60 minut",
+          description: "Terapia bańką",
         },
         {
           title: "Moksoterapia",
@@ -278,12 +288,12 @@ export const translations = {
         },
         {
           title: "Zabieg łączony",
-          price: "350 PLN",
-          duration: "90 minut",
+          price: "cena ustalana indywidualnie",
+          duration: "czas zależny od potrzeb",
           description: "Wiele technik w jednej sesji",
         },
       ],
-      note: "Klienci po raz pierwszy otrzymują kompleksową konsultację wliczoną w cenę sesji.",
+      note: "Klienci podczas pierwszej wizyty wliczoną w cenę sesji.",
     },
     contact: {
       title: "Kontakt",
@@ -295,7 +305,7 @@ export const translations = {
       },
       hours: {
         title: "Godziny otwarcia",
-        schedule: ["Poniedziałek - Piątek: 9:00 - 19:00", "Sobota: 10:00 - 15:00", "Niedziela: Nieczynne"],
+        schedule: ["Poniedziałek - Piątek: 16:00 - 20:00", "Sobota: 12:00 - 20:00", "Niedziela: Nieczynne"],
       },
     },
   },
