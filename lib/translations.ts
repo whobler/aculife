@@ -78,6 +78,11 @@ export const translations = {
           description:
             "Warming therapy using dried mugwort to stimulate circulation, strengthen the immune system, and support overall wellness.",
         },
+        {
+          title: "Systemic Constellations",
+          description:
+            "We are all connected by an invisible field that stores our habits and ancestral patterns. Often, it is these unconscious patterns that shape our health, career, and relationships. Through systemic constellations, we can reach the root of our problems and see what is hidden from plain sight. Once we understand these underlying causes, we gain a real chance to heal them and transform our lives for the better",
+        },
       ],
     },
     about: {
@@ -211,7 +216,7 @@ export const translations = {
     },
     services: {
       title: "Nasze usługi",
-      subtitle: "Techniki tradycyjnej medycyny chińskiej dostosowane do Twoich potrzeb",
+      subtitle: "Techniki (nie tylko) tradycyjnej medycyny chińskiej dostosowane do Twoich potrzeb",
       items: [
         {
           title: "Akupunktura",
@@ -232,6 +237,11 @@ export const translations = {
           title: "Moksoterapia",
           description:
             "Moksoterapia (zwana też moksowaniem lub termopunkturą) to metoda z Tradycyjnej Medycyny Chińskiej polegająca na ogrzewaniu punktów akupunkturowych na ciele za pomocą żarzącego się suszu z ziół (głównie bylicy), by przywrócić i zrównoważyć przepływ energii życiowej (Qi).",
+        },
+        {
+          title: "Ustawienia",
+          description:
+            "Wszyscy jesteśmy połączeni niewidzialnym polem, które przechowuje nasze nawyki i rodowe schematy. Często to właśnie te nieuświadomione wzorce decydują o tym, jak wygląda nasze zdrowie, praca czy relacje. Dzięki metodzie ustawień systemowych możemy dotrzeć do źródła problemów i zobaczyć to, czego nie widać na pierwszy rzut oka. Gdy zrozumiemy te ukryte przyczyny, zyskujemy realną szansę, aby je uzdrowić i odmienić swoje życie na lepsze.",
         },
       ],
     },
