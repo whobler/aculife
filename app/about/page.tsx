@@ -14,7 +14,7 @@ export default function AboutPage() {
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="relative h-[400px] rounded-lg overflow-hidden">
-            <img src="/professional-acupuncturist-portrait-in-clinic.jpg" alt="Practitioner" className="w-full h-full object-cover" />
+            <img src="/wojciechcudowny.jpg" alt="Wojciech Akupunkturzysta" className="w-full h-full object-cover" />
           </div>
 
           <div className="space-y-6">
