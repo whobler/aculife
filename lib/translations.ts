@@ -155,7 +155,7 @@ export const translations = {
       },
       hours: {
         title: "Opening Hours",
-        schedule: ["Monday - Friday: 16:00 - 20:00", "Saturday: 12:00 - 20:00", "Sunday: Closed"],
+        schedule: ["Monday - Friday: 10:00 - 20:00", "Saturday: 9:00 - 16:00", "Sunday: Closed"],
       },
     },
   },
@@ -315,7 +315,7 @@ export const translations = {
       },
       hours: {
         title: "Godziny otwarcia",
-        schedule: ["Poniedziałek - Piątek: 16:00 - 20:00", "Sobota: 12:00 - 20:00", "Niedziela: Nieczynne"],
+        schedule: ["Poniedziałek - Piątek: 10:00 - 20:00", "Sobota: 09:00 - 16:00", "Niedziela: Nieczynne"],
       },
     },
   },
